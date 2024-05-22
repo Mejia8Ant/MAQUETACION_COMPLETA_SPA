@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPA</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="movil.css">
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <script src="wow.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script src="fancybox/jquery.fancybox.js"></script>
+</head>
+<body>
+  <i class="ir_arriba fa-solid fa-circle-up"></i>
+  <script>
+    new WOW().init();
+    </script>
+  <script>
+    $(function() {
+      $(".rslides").responsiveSlides();
+    });
+  </script>
+  <header class="arriba">
+    <div class="ancho contenedor_cabecera">
+      <div class="alineacion">
+        <picture >
+          <img class="wow animate__animated animate__flipInX" src="imagenes/logocabecera.jpg" alt="logo_spa_lupita">
+        </picture>
+        <div class="contenedor_iconomenu">
+          <i id="iconomenu" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <aside class="iconosredes">
+        <a class="uno" href="#"><i class="fa-brands fa-facebook-square"></i></a>
+        <a class="dos" href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        <a class="tres" href="#"><i class="fa-brands fa-twitter-square"></i></a>
+      </aside>
+    </div>
+    <nav class="ancho">
+      <ul class="contenedor_menu">
+        <li><a class="btn_ancla" href="#">INICIO</a></li>
+        <li><a class="btn_ancla" href="#empleo">EMPLEOS</a></li>
+        <li><a class="btn_ancla" href="#tratamientos">TRATAMIENTOS</a></li>
+        <li><a class="btn_ancla" href="#galeria">INSTALACIONES</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="slidefotos">
+    <ul class="rslides">
+      <li><img src="imagenes/slide1.jpg" alt=""></li>
+      <li><img src="imagenes/slide2.jpg" alt=""></li>
+      <li><img src="imagenes/slide3.jpg" alt=""></li>
+      <li><img src="imagenes/slide4.jpg" alt=""></li>
+    </ul>
+
+
+    <div class="infoslide">
+      <h1 class="animate__animated animate__bounceInLeft" >PROMOCIONES DE MARZO </h1>
+      <p class="animate__animated animate__bounceInRight ">Se acerca la epoca de playa y por eso preparamos estas dos promociones ideales para ti.</p>
+      <div class="contenedorbotones animate__animated animate__zoomInRight ">
+        <a href="#" class="btn_rosado">Solicitar Promoción</a>
+        <a href="#" class="btn_borde">Ver video</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="beauty ancho">
+    <article class="">
+      <h2>Los productos Science of Reauty</h2>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci dolorum doloremque libero amet perspiciatis aperiam omnis voluptate deserunt rerum nemo, odit obcaecati reiciendis voluptatum! Veritatis, natus. Distinctio, et voluptatibus!</p>
+    </article>
+    <picture>
+      <img class="" src="imagenes/fotovelas.jpg" alt="">
+    </picture>
+  </section>
+  <section class="buscamos" id="empleo">
+    <h2>Buscamos talento para integrarlos a nuestro equipo</h2>
+    <div class="contenedor_buscamos ancho">
+      <picture>
+        <img src="imagenes/fotoaromatizante.jpg" alt="">
+      </picture>
+      <div class="contenedor_buscamos_info">
+        <article>
+          <p class="puesto">Puesto de trabajo para Recepcionista</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium iusto corporis eveniet officia labore. Vitae, ea, eos exercitationem dolore iste repellat, harum quam voluptates earum cum fuga facere aspernatur sunt?</p>
+        </article>
+        <article>
+          <p class="puesto">Puesto de trabajo para Masajista</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium iusto corporis eveniet officia labore. Vitae, ea, eos exercitationem dolore iste repellat, harum quam voluptates earum cum fuga facere aspernatur sunt?</p>
+        </article>
+        <article>
+          <p class="puesto">Puesto de trabajo para Nutriologo</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium iusto corporis eveniet officia labore. Vitae, ea, eos exercitationem dolore iste repellat, harum quam voluptates earum cum fuga facere aspernatur sunt?</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="buscamos" >
+    <br>
+    <h2 id="tratamientos">TRATAMIENTOS</h2>
+    <br>
+    <div class="servicios ancho">
+      <article class="wow animate__animated animate__bounceInLeft " >
+        <picture >  
+          <img class="zoom"  src="imagenes/fotocircular1.jpg" alt="">
+        </picture>
+        <h2 ">MASAJES CORPORALES</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, veniam quas veritatis magnam soluta consequatur? Officia magnam doloremque consequuntur vero voluptatibus perspiciatis, sint accusamus pariatur, cumque possimus odio explicabo aut.</p>
+        <br>
+        <a href="#" class="btn_rosado">ver mas</a>
+        <br>
+      </article>
+
+      <article class="wow animate__animated animate__bounceInLeft ">
+        <picture >
+          <img src="imagenes/fotocircular2.jpg" alt="">
+        </picture>
+        <h2>TRATAMIENTOS CON PIEDRAS</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, veniam quas veritatis magnam soluta consequatur? Officia magnam doloremque consequuntur vero voluptatibus perspiciatis, sint accusamus pariatur, cumque possimus odio explicabo aut.</p>
+        <br>
+        <a href="#" class="btn_rosado">ver mas</a>
+        <br>
+      </article>
+
+      <article class="wow animate__animated animate__bounceInLeft ">
+        <picture>
+          <img src="imagenes/fotocircular3.jpg" alt="">
+        </picture>
+        <h2>MASCARILLA ANTIARRUGAS</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, veniam quas veritatis magnam soluta consequatur? Officia magnam doloremque consequuntur vero voluptatibus perspiciatis, sint accusamus pariatur, cumque possimus odio explicabo aut.</p>
+        <br>
+        <a href="#" class="btn_rosado">ver mas</a>
+        <br>
+      </article>
+    </div>
+  </section>
+  <br>
+    <h2 class="titulo_instalaciones" id="galeria">INSTALACIONES</h2>
+  <br>
+<section class="instalaciones">
+  
+  <figure class="foto1">
+    <a class="fancybox" rel="gallery1" href="imagenes/galeria1.jpg" title="FOTO 1" >
+      <img src="imagenes/galeria1.jpg" alt="">
+    </a>
+  </figure>
+  <figure class="foto2">
+    <a class="fancybox" rel="gallery1" href="imagenes/galeria2.jpg" title="FOTO 2">
+      <img src="imagenes/galeria2.jpg" alt="">
+    </a>
+  </figure>
+  <figure class="foto3">
+    <a class="fancybox" rel="gallery1" href="imagenes/galeria3.jpg" title="FOTO 3">
+      <img src="imagenes/galeria3.jpg" alt="">
+    </a>
+  </figure>
+  <figure class="foto4">
+    <a class="fancybox" rel="gallery1" href="imagenes/galeria4.jpg" title="FOTO 4">
+      <img src="imagenes/galeria4.jpg" alt="">
+    </a>
+  </figure>
+  <figure class="foto5">
+    <a class="fancybox" rel="gallery1" href="imagenes/galeria5.jpg" title="FOTO 5">
+      <img src="imagenes/galeria5.jpg" alt="">
+    </a>
+  </figure>
+</section>
+  <footer>
+    <picture>
+      <img src="imagenes/logo_abajo.jpg" alt="">
+    </picture>
+    <a href="#">www.spasalon.com</a>
+  </footer>
+  <!-- funciones -->
+  <script src='funciones.js'></script>
+</body>
+</html>
